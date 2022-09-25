@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import variables from "../styles/variables.module.scss";
+import variables from "@styles/variables.module.scss";
 
 const StyledInput = styled.input`
   padding: 6px;

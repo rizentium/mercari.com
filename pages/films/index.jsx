@@ -1,9 +1,9 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
-import { FilmCard, Loading } from "../../components";
-import { useFilmList } from "../../hooks";
-import styles from "../../styles/pages/Films.module.scss";
+import { FilmCard, Loading } from "@components";
+import { useFilmList } from "@hooks";
+import styles from "@styles/pages/Films.module.scss";
 
 const FilmList = () => {
   const [films, isLoading] = useFilmList();

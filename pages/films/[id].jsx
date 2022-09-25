@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../../styles/pages/FilmById.module.scss";
+import styles from "@styles/pages/FilmById.module.scss";
 import { useRouter } from "next/router";
-import { useFilm } from "../../hooks";
-import { ItemTile, Loading, PeopleList } from "../../components";
+import { useFilm } from "@hooks";
+import { ItemTile, Loading, PeopleList } from "@components";
 import styled from "styled-components";
 import { useEffect } from "react";
 

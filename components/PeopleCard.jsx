@@ -1,5 +1,5 @@
+import { usePeople } from "@hooks";
 import styled from "styled-components";
-import usePeople from "../hooks/People";
 
 const PeopleContainer = styled.div`
   p {

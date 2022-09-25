@@ -2,8 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { StyledButton, StyledInput } from "../../components";
-import styles from "../../styles/pages/Login.module.scss";
+import { StyledButton, StyledInput } from "@components";
+import styles from "@styles/pages/Login.module.scss";
 
 const BodySection = () => {
   const [username, setUsername] = useState(null);

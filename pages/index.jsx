@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import { StyledButton } from "../components";
-import styles from "../styles/pages/Home.module.scss";
+import { StyledButton } from "@components";
+import styles from "@styles/pages/Home.module.scss";
 
 const Main = () => {
   return (
