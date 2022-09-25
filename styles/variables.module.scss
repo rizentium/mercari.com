@@ -1,0 +1,17 @@
+$color-primary: #0070f3;
+$color-light: #ffffff;
+$color-dark: #000000;
+
+$size-bg: 32px;
+$size-md: 16px;
+$size-sm: 12px;
+
+:export {
+  colorPrimary: $color-primary;
+  colorLight: $color-light;
+  colorDark: $color-dark;
+
+  sizeBg: $size-bg;
+  sizeMd: $size-md;
+  sizeSm: $size-sm;
+}
