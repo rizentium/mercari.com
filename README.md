@@ -2,6 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+First, you need to create `.env.local`. You can copy `.env.example` and replace required variables
+
+For example:
+
+`env.local`
+```
+NEXT_PUBLIC_ENDPOINT_DOMAIN=https://ghibliapi.herokuapp.com
+```
+
 First, run the development server:
 
 ```bash
