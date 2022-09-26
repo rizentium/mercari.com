@@ -53,7 +53,12 @@ Button.defaultProps = {
 export default function StyledButton(props) {
   return (
     <Link href={props.href ?? ""}>
-      <Button color={props.color} size={props.size} onClick={props.onClick}>
+      <Button
+        color={props.color}
+        size={props.size}
+        onClick={props.onClick}
+        data-cy={props.dataCy ?? ""}
+      >
         {props.label}
       </Button>
     </Link>

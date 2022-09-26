@@ -22,6 +22,7 @@ const Main = () => {
         color="primary"
         size="lg"
         href="/login"
+        dataCy="btn-login"
       />
     </main>
   );

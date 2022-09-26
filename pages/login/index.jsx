@@ -32,13 +32,15 @@ const BodySection = () => {
           type={"text"}
           placeholder="Username"
           onChange={(e) => setUsername(e.currentTarget.value)}
+          data-cy="input-username"
         />
         <StyledInput
           type={"password"}
           placeholder="Password"
           onChange={(e) => setPassword(e.currentTarget.value)}
+          data-cy="input-password"
         />
-        <StyledButton label="Login" onClick={onSubmit} />
+        <StyledButton label="Login" onClick={onSubmit} dataCy="btn-login" />
       </div>
     </main>
   );

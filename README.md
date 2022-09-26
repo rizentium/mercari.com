@@ -32,3 +32,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Testing
+### E2E Testing
+
+First, build the latest code:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+After that, run e2e testing by using the command bellow:
+
+```bash
+npm run e2e
+# or
+yarn e2e
+```
